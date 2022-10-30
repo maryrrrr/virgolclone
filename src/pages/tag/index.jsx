@@ -1,6 +1,8 @@
-
+import {useParams} from 'react-router-dom';
 const Tag = () => {
-    return (<div>tag</div>);
+    
+    const {tagname} = useParams();
+    return (<div>Tag: {tagname} </div>);
     
 }
 export default Tag;
