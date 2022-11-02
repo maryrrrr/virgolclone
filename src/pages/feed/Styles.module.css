@@ -1,0 +1,55 @@
+.wrapper{
+    max-width: 1000;
+    margin: 0 auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:32px;
+}
+.logo{
+    width: 64px;
+    height: 64px;
+}
+.authlinks{
+    display: flex;
+    align-items: center;
+
+}
+.authlinks a{
+    text-decoration: none;
+    padding: 4px 16px;
+    color:#789c90 ;
+    height: 26px;
+}
+.authlinks a.login{
+    color:#789c90;
+    background-color:#2ebd7d ;
+    border-radius: 4px;
+
+}
+/*---------------------------------*/
+/*Navbar*/
+/*--------------------------------*/
+.navbar{
+    background-color: #2ebd7d;
+}
+.navbar ul{
+    max-width: 1000px;
+    height: 42px;
+    margin: 0px auto;
+    list-style-type: none;
+}
+.navbar ul li{
+    float: right;
+}
+.navbar ul li a{
+    display: inline-block;
+    padding: 10px 16px;
+    color:#789c90;
+    opacity: 0.8px;
+}
+.navbar ul li a:hover{
+    opacity: 1px;
+}
