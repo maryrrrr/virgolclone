@@ -1,13 +1,18 @@
 import Styles from "../Styles.module.css"; 
-const Header = ()=>{
+import Logo from "../../../assets/logo2.jfif";
+const Header = ()=> {
     return(
         <>
-        <div>
-            <div>Register</div>
-            <div>Login</div>
-        </div>
-        </>
-    );
+            <div className= {'${Styles.header} ${Styles.wrapper}'}>
+                <div>
+                    <img className={'${Styles.logo}'} src={Logo} alt="Logo" />
+                </div>
+                <div className= {'${Styles.authlinks}'}>
+                    <a src="/">ثبت نام</a>
+                     <a src="/">ورود</a>
+                </div>
+            </div>
+        </>);
 
 }
 export default Header;
