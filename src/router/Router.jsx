@@ -32,7 +32,7 @@ export const Router= createBrowserRouter ([
         element: <Post/>
     },
     {
-        path:"/notfound",
+        path:"/*",
         element: <NotFound/>
     },
     {
