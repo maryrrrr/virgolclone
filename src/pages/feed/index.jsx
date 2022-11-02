@@ -1,5 +1,11 @@
 const Feed = () => {
-    return (<div>feed</div>);
+    return (
+    <>
+        <Header/>
+        <div>Navbar</div>
+        <div>Posts</div>
+    </>
+    );
     
 }
 export default Feed;

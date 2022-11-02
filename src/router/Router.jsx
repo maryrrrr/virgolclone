@@ -1,13 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Feed from '../feed';
-import Login from '../login';
-import Post from '../post';
-import Author from '../author';
-import NotFound from '../notfound';
-import Category from '../category';
-import DescriptionPages from '../descriptionpages';
-import Tag from '../tag';
-import Register from '../register';
+import Feed from '../pages/feed';
+import Login from '../pages/login';
+import Post from '../pages/post';
+import Author from '../pages/author';
+import NotFound from '../pages/notfound';
+import Category from '../pages/category';
+import DescriptionPages from '../pages/descriptionpages';
+import Tag from '../pages/tag';
+import Register from '../pages/register';
 
 
 export const Router= createBrowserRouter ([
