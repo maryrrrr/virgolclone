@@ -1,13 +1,23 @@
 const Navbar =()=>{
     return(
         <>
-        <div>
+        <div className={'${Styles.navbar}'}>
             <ul>
-                <li>جدیدا</li>
-                <li>جدیدا</li>
-                <li>جدیدا</li>
-                <li>جدیدا</li>
-                <li>جدیدا</li>
+                <li>
+                    <a href="#">جدیدا</a>
+                </li>
+                <li>
+                    <a href="#">جدیدا</a>
+                </li>
+                <li>
+                    <a href="#">جدیدا</a>
+                </li>
+                <li>
+                    <a href="#">جدیدا</a>
+                </li>
+                <li>
+                <a href="#">جدیدا</a>
+                </li>
             </ul>
         </div>
         </>

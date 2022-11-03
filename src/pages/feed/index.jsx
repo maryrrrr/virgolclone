@@ -3,7 +3,7 @@ const Feed = () => {
     return (
     <>
         <Header/>
-        <div>Navbar</div>
+        <Navbar/>
         <div>Posts</div>
     </>
     );
