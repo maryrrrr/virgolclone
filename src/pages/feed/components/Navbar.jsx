@@ -1,3 +1,4 @@
+import Styles from "../Styles.module.css";
 const Navbar =()=>{
     return(
         <>
@@ -16,7 +17,7 @@ const Navbar =()=>{
                     <a href="#">جدیدا</a>
                 </li>
                 <li>
-                <a href="#">جدیدا</a>
+                    <a href="#">جدیدا</a>
                 </li>
             </ul>
         </div>

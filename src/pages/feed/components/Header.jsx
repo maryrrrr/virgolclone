@@ -1,6 +1,7 @@
 import Styles from "../Styles.module.css"; 
-import Logo from "../../../assets/logo2.jfif";
-const Header = ()=> {
+import Logo from "../../../assets/logo2.png";
+
+const Header = () => {
     return(
         <>
             <div className= {'${Styles.header} ${Styles.wrapper}'}>
@@ -8,8 +9,9 @@ const Header = ()=> {
                     <img className={'${Styles.logo}'} src={Logo} alt="Logo" />
                 </div>
                 <div className= {'${Styles.authlinks}'}>
-                    <a src="/">ثبت نام</a>
-                     <a src="/">ورود</a>
+                    <a href="/">ثبت نام</a>
+
+                    <a className= {'${Styles.login}'} href="/">ورود</a>
                 </div>
             </div>
         </>);
