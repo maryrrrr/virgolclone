@@ -1,3 +1,6 @@
+body{
+    font-family: BNazanin;
+} 
 .wrapper{
     max-width: 1000;
     margin: 0 auto;
@@ -6,11 +9,11 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding:32px;
+    padding:12px;
 }
 .logo{
-    width: 64px;
-    height: 64px;
+    width: 100px;
+    height: 100px;
 }
 .authlinks{
     display: flex;
@@ -20,11 +23,11 @@
 .authlinks a{
     text-decoration: none;
     padding: 4px 16px;
-    color:#789c90 ;
+    color:#000 ;
     height: 26px;
 }
 .authlinks a.login{
-    color:#789c90;
+    color:#000;
     background-color:#2ebd7d ;
     border-radius: 4px;
 }
@@ -46,7 +49,7 @@
 .navbar ul li a{
     display: inline-block;
     padding: 10px 16px;
-    color:#789c90;
+    color:#000;
     opacity: 0.8px;
 }
 .navbar ul li a:hover{

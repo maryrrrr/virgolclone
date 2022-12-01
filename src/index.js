@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Router } from './router/Router';
 import { RouterProvider } from "react-router-dom"; 
+import './assets/fonts/BNazanin.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
